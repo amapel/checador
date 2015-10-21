@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+</head>
+<body>
+    	<h1>captcha !</h1>
+
+    		<p>escribe el resultado</p>
+            <script> 
+            		
+ 				  
+              	var num1= (Math.floor (Math.random()*10));
+            	
+            	var num2= (Math.floor (Math.random()*10));
+                    document.write(num1 + "+"); 
+                    document.write(num2 +"=");
+                    /*document.write = instruccion para escribir en el lienzo de la pag web
+                    - usar '' para respetar "" */
+                 
+            </script>
+        <form action=" " method="get">
+                  
+                  <input type="numero" id="resultado" placeholder="Resultado" name="numero"   />
+		              <!-- boton-->
+		          <button type="validar" onclick="validaResultado()">Enviar</button>
+                
+	    </form>
+	    	<div id="nota"></div>
+            <script>
+            function validaResultado() {
+            	
+            	var suma= num1+num2
+
+                var resultado = document.getElementById('resultado').value;
+               
+                 if( resultado == suma) {//document.getElementById('resultado') == var resultado){
+    				document.write("bien hechooooo");
+    				 nota.innerHTML = "Bien hecho!"
+    			}else{
+    				document.write("intenta otra vezzzzz");
+    				 nota.innerHTML = "intenta otra vez!"
+    			}
+    		}
+
+            </script>            
+
+
+      
+        <!--termina estructura dinamica-->
+        
+        <!--inicia estructura estatica-->
+        </div><!--termina margen-->
+    </div> <!--termina marco-->
+</body>
+</html>
