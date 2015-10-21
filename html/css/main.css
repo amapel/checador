@@ -1,0 +1,242 @@
+@font-face {
+    font-family: "caladea";
+    font-style: normal;
+    font-weight: normal;
+    src: local("?"), url("../fonts/Caladea-Regular.ttf") format("truetype");
+}
+
+/*--   contenedor  ---*/
+#contenedor {
+    margin: 0px auto;
+}
+
+/*--   encabezado ---*/
+
+header {
+    font-family: caladea;
+    font-size: 20px;
+    padding: 10px;    
+    height:60px;
+    color: #fff;
+    background-color: #00455F;
+    -ms-box-shadow:  4px 4px 4px #000;
+    -moz-box-shadow:  4px 4px 4px #000;
+    -webkit-box-shadow:  4px 4px 4px #000;
+    -o-box-shadow:  4px 4px 4px #000;
+    box-shadow:  4px 4px 4px #000;
+}
+
+
+/*//////////////////////////////////////////////////////////////////
+                    inicia login.html
+//////////////////////////////////////////////////////////////////*/
+#contenedor{
+    height: 620px;
+    background-image: url(../img/01.jpg);
+    background-repeat: no-repeat;
+}
+
+#login {
+    background-color: rgba(0, 69, 95, 0.4);
+    width: 25%;
+    padding: 1%;
+    font-family: caladea;
+    position: relative;
+    top: 180px;
+    margin: 0px auto;
+    border: 3px solid #00A99D;
+    border-radius: 8px;
+    box-shadow:inset  0px 0px 10px #000;
+
+}
+/*--   texto  "login" ---*/
+
+form h1{
+     font-family: caladea;
+     color: white;
+     text-align:  center;
+     font-size: 30px;
+}
+/*--   texto "ingresar" ---*/
+form h2 {
+    font-family: Helvetica;
+    color: aliceblue;
+    text-align: center;
+    font-size: 50%;
+    
+}
+/*--   recuadros txt ---*/
+
+form input {
+    width: 60%;
+    height: 20px;
+    margin: 1% 20%;
+    color: #28A5B5;
+    text-align: center;
+    border-radius: 5px;
+}
+
+ <!-- texto contraseña-->
+form h3 {
+     font-family: Helvetica;
+    color: aliceblue;
+    text-align: center;
+    font-size: 10%;
+}
+
+/*--   botones ---*/
+
+form button {
+    background-color: #158CB5;
+    font-family: caladea;
+    font-size: 20px;
+    color: #fff;
+    width: 40%;
+    height: 30px;
+    margin: 5% 30%;
+    border-radius: 7px;
+    box-shadow: 0px 2px 0px;
+}
+form button:hover {
+    background-color: #00A99D;
+}
+/*//////////////////////////////////////////////////////////////////
+                   termina  login.html
+//////////////////////////////////////////////////////////////////*/
+/*///////////////////////////////////////////////////////////////////
+                 inicia historial.html
+//////////////////////////////////////////////////////////////////*/
+
+#historial{
+    height: 620px;
+    background-image: url(../img/02.jpg);
+    background-repeat: no-repeat;
+}
+
+#calendario{
+        color: #fff;
+        margin: 0px auto;
+        width: 25%;
+        text-align: center;
+           }
+
+article {
+    background-color: #09647A;
+    padding: 1%;
+    border: 3px solid #00A99D;
+    border-radius: 8px;
+    box-shadow:inset  0px 0px 10px #000;
+    margin: 0% auto;
+
+}
+/*//////////////////////////////////////////////////////////////////
+                   termina  bienvenido.html
+//////////////////////////////////////////////////////////////////*/
+
+/*//////////////////////////////////////////////////////////////////
+                    contraseña o usuario incorrecto.html
+//////////////////////////////////////////////////////////////////*/
+
+#img2{
+    margin: 0% 40%;
+    top:100px;
+    position: absolute;
+    background-image: url(../img/monos.png);
+    background-size: 80%;
+    top: 30%;
+    width: 500px;
+    height: 600px;
+    background-repeat: no-repeat;
+
+}
+
+
+#contenido_noexiste{
+        color: #fff;
+        margin: 8% 15%;
+        width: 25%;
+        text-align: center;
+           }
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover{
+    color: #00384C;
+}
+ article {
+    background-color: #09647A;
+    padding: 1%;
+    border: 3px solid #00A99D;
+    border-radius: 8px;
+    box-shadow:inset  0px 0px 10px #000;
+    margin: 0% auto;
+
+}
+
+
+.error  {
+        text-align: center;
+        padding: 15px 2%;
+        background-color: #09647A;
+        font-family: helvetica;
+        margin-bottom: 15px;
+        margin-top: 15px;
+        color: #fff;
+            -webkit-border-radius: 12px;
+            -o-border-radius: 12px;
+            -moz-border-radius: 12px;
+            -ms-border-radius: 12px;
+        border-radius: 12px;
+        
+            -webkit-box-shadow: 3px 3px 12px #e3e2e2;	
+            -o-box-shadow: 3px 3px 12px #e3e2e2;	
+            -moz-box-shadow: 3px 3px 12px #e3e2e2;	
+            -ms-box-shadow: 3px 3px 12px #e3e2e2;	
+        box-shadow: 3px 3px 12px #E58303;	
+    }
+
+article {
+        padding: 10%;
+        margin-bottom: 15px;
+        background-color: #09647A;
+}
+
+.boton{
+        padding: 12px;
+        background-image: url(../img/flecha.png);
+        background-repeat: no-repeat;
+        background-size: 20%;
+        position: relative;
+        top:10%;
+        margin: 0px auto;
+    }
+
+
+/*//////////////////////////////////////////////////////////////////
+                    termina contraseña o usuario incorrecto.html
+//////////////////////////////////////////////////////////////////*/
+
+
+
+/*////////////////--   pie de pagina ---//////////////////////////*/
+footer {
+    background-color: #00455F;
+    color: #9FEAFC;
+    text-align: center;
+    font-family: caladea;
+    font-size: 20px;
+    height:60px;
+    padding: 8px;
+    margin-bottom: 0px;
+    margin: 0% auto;
+    ms-box-shadow:  0px 4px 0px #000;
+    -moz-box-shadow:  0px 4px 0px #000;
+    -webkit-box-shadow:  0px 4px 0px #000;
+    -o-box-shadow:  0px 4px 0px #000;
+    box-shadow:  4px 4px 4px #000;
+}
+
+
+

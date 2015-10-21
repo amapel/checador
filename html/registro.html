@@ -1,0 +1,78 @@
+<!DOCTYPE html> 
+<html>
+<head>
+    <title>registro </title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/main.css" />
+
+</head>
+    <body>
+        <div id="contenedor"><!-- cuadro de login-->
+
+        <header> <!-- encabezado -->
+                <aside> <strong>Virtual </strong>  </aside>
+        </header>
+            
+
+        <div id="contenedor"> <!-- imagen de fondo-->
+
+            <div id="login"><!--  login -->
+            
+            <form action="#" id="registro"> 
+            <ul> 
+                <li class="texto"> 
+                    <h1 id="titulo">Registro</h1> 
+                    
+                </li> 
+                
+                <li> <label for="name">Nombre:</label> 
+                <input type="text" placeholder="Nombre" required /> 
+                </li> 
+                
+                 
+                
+                <li> <label for="user">Nombre de usuario:</label> 
+                <input type="text" placeholder="nombre de usuario"required /> 
+                </li>  
+                
+                <li> <label for="email">Email:</label> 
+                <input id="email1" type="email" name="email1" placeholder="Correo electronico" required onkeyup="validaemail()"/>
+                </li>
+                
+                <li> <label for="email">Email:</label> 
+                <input id="email2" type="email" name="email2" placeholder="Confirma tu correo electronico" required onkeyup="validaemail()" /> 
+                <!--<span class="requeridos">Forma correcta: "name@something.com"</span>--> 
+                </li
+                    
+                <li> <label for="password">password:</label> 
+                <input type="password" placeholder="Escribe tu contraseña mayor a 8 caracteres" required /> 
+                
+                <!--<span class="requeridos">Usa al menos ocho caracteres.</span>-->
+                </li>
+                <li> <label for="repass">Confirma tu pasword:</label> 
+                <input type="password" placeholder="Confirma tu contraseña"  required /> 
+                </li>  
+                
+                <li> <label for="date">puesto:</label> 
+                <input type="puesto" placeholder="escribe el puesto que tienes" required /> 
+                </li> 
+                
+                <li> <label for="date">horario:</label> 
+                <input type="horario"  placeholder="escribe tu horaio " required /> 
+                </li> 
+               
+            </ul>
+            <button id="registrar" class="submit" type="submit">Registrar</button>  
+        </div> 
+   
+    </form>
+
+        <footer> <!-- pie de pagina-->
+            <p> PADAS</p>
+        </footer>
+        </div>
+
+        
+    </body>
+</html>
+

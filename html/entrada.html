@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Virtual </title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/entrada y salida.css" />
+
+</head>
+    <body>
+        <div id="contenedor"><!-- cuadro de login-->
+
+        <header> <!-- encabezado -->
+                <aside> <strong>Virtual </strong>  </aside>
+        </header>
+        <div id="contenedor"> <!-- imagen de fondo-->
+
+            <div id="entradaysalida"><!--  login -->
+                    
+                    <h1>Bienvenid@</h1>
+                      <br>
+                    <button type="button" onclick="window.location.href='historial.html'">historial<p><img src="img/email1.png" alt="carta"></p></button>
+                    <p></p>
+                    <br>
+                    <p></p>
+                    <br>
+
+            </div>
+        </div>
+        <footer> <!-- pie de pagina-->
+            <p> PADAS</p>
+        </footer>
+        </div>
+
+        <script>
+            /* Código en javascript para validar la longitud del campo de password */
+            function valida() {
+                /* Realiza la acción de validar */
+
+                /* var pass es equivalente al camp input del password del html */
+                var pass = document.getElementById('pass').value;
+
+                /* long será la longitud del password escrito por el usuario */
+                var long = pass.length;
+
+                var input = document.getElementById('pass');
+                var ingresar = document.getElementById('ingresar');
+               
+                if(long >=6) {
+                    /* Botón en verde activo */
+                    input.style.backgroundColor = "#fff";
+                    ingresar.disabled=false;
+                    texto.innerHTML="";
+                } else {
+                    /* Botón en rojo inactivo */
+                    input.style.backgroundColor = "#CCC";
+                    ingresar.disabled=true;
+                    texto.innerHTML="Ingrese una contraseña mayor a 6 caracteres";
+                }
+                
+                // alert(pass.length);
+            }
+        </script>
+    </body>
+</html>
